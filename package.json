@@ -1,14 +1,11 @@
 {
-  "name": "react-dfp",
+  "name": "@rvkempf/react-dfp",
   "version": "0.11.2",
   "homepage": "https://github.com/jaanauati/react-dfp/",
-  "author": {
-    "name": "Jonatan Alexis Anauati",
-    "email": "barakawins@gmail.com"
-  },
+  "author": "Jonatan Alexis Anauati <barakawins@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaanauati/react-dfp.git"
+    "url": "git+https://github.com/jaanauati/react-dfp.git"
   },
   "scripts": {
     "watch": "NODE_ENV=production babel --watch js --out-dir lib",
@@ -19,7 +16,6 @@
     "dist": "npm run eslint && npm run clean && npm run build && npm run test"
   },
   "bugs": {
-    "mail": "barakawins@gmail.com",
     "url": "https://github.com/jaanauati/react-dfp/issues/"
   },
   "keywords": [
@@ -89,5 +85,11 @@
   "dependencies": {
     "babel-plugin-transform-object-assign": "^6.22.0",
     "prop-types": "^15.6.1"
-  }
+  },
+  "description": "forked for testing without gpt script loads",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "license": "ISC"
 }
